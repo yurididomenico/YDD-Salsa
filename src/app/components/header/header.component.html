@@ -1,11 +1,15 @@
 <header>
-  <!-- Logo -->
   <figure>
     <img src="../../../assets/img/logo.png" id="siteLogo" alt="Logo - Bandiera Cuba">
   </figure>
 
-  <!-- HambMenu -->
-  <div id="menu">
+  <div mat-button [matMenuTriggerFor]="menu" id="menu">
     <i class="fa-solid fa-bars"></i>
   </div>
+
+  <mat-menu #menu="matMenu">
+    <a routerLink="/" mat-menu-item class="linkPage">Home</a>
+    <a routerLink="page1" mat-menu-item class="linkPage">page1</a>
+    <a routerLink="page2" mat-menu-item class="linkPage">page2</a>
+  </mat-menu>
 </header>
