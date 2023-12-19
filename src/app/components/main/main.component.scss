@@ -1,15 +1,11 @@
 main {
   padding: 15px 10px;
 
-  #tempDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .linkPage {
-      font-size: 1.2rem;
-      padding: 10px;
-      background-color: #f0cef0;
-    }
+  .linkPage {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #f0cef0;
   }
+
 }

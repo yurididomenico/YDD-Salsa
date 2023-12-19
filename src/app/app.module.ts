@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+
 import { HomeComponent } from './pages/home/home.component';
 import { TestPageComponent } from './pages/test-page/test-page.component';
 import { TestPage2Component } from './pages/test-page2/test-page2.component';
@@ -28,7 +30,8 @@ import { TestPage2Component } from './pages/test-page2/test-page2.component';
     BrowserModule,
     BrowserAnimationsModule,
 
-    MatIconModule
+    MatIconModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
