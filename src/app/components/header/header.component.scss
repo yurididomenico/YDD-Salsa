@@ -1,4 +1,5 @@
 header {
+  position: relative;
   background: linear-gradient(to right, #EB001C, #FFFFFF, #0145ED);
   font-weight: 600;
   padding: 10px;
@@ -20,4 +21,39 @@ header {
     font-size: 2rem;
     padding-inline-end: 10px;
   }
+
+  .dropdown {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+
+
+    .linkPage {
+      background: linear-gradient(to right, red, white, blue);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      color: #242424;
+      text-shadow: 0 0 5px grey;
+    }
+
+    .linkPage:not(.firstLinkPage) {
+      border-top: 1px solid black;
+    }
+
+    .lastLinkPage {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  }
 }
+
+

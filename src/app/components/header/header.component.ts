@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  isClicked = false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleDropdown() {
+    console.log("x");
+    const dropdown = document.querySelector('.dropdown');
+    dropdown?.classList.toggle('d-none');
+    dropdown?.classList.toggle('d-flex-jucoce-alitece');
   }
 }

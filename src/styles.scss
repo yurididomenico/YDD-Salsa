@@ -1,4 +1,5 @@
 @import 'tailwindcss/base';
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
@@ -12,4 +13,17 @@
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+  .d-none {
+    display: none;
+  }
+
+  .d-flex-jucoce-alitece {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
